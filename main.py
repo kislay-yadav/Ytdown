@@ -21,7 +21,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN: Optional[str] = os.getenv("BOT_TOKEN")
+BOT_TOKEN: Optional[str] = os.getenv("BOT_TOKEN","8460940483:AAEIPkOXZJGigbISEj-US7IyR06Op231L90")
 OPENROUTER_API_KEY: Optional[str] = os.getenv("OPENROUTER_API_KEY","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")
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
